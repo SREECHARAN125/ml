@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result:</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Description</td>
+                <td>cost center</td>
+                <td>GL account</td>
+                <td>Matching Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in range(length) %}
+            <tr>
+                <td>{{ description[i] }}</td>
+                <td>{{ result[i][0] }}</td>
+                <td>{{ result[i][1] }}</td>
+                <td>{{ result[i][2] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

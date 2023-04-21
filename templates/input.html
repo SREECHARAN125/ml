@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Input Flag</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            align-content: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background-color: rgb(184, 231, 184);
+            color: white;
+            font-size: 10px;
+            padding: 5px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Enter the flag value:</h1>
+    <form action='{{url_for("submit")}}' method="POST">
+        <input type="text" name="flag>
+        <button type="submit" name="button_value" value="Text to process">Get table</button>
+    </form>
+</body>
+
+</html>

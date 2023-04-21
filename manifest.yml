@@ -1,0 +1,6 @@
+---
+applications:
+- memory: 128MB
+  disk_quota: 2048MB
+  random-route: true
+  #health-check-type: process

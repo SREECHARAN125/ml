@@ -1,0 +1,1 @@
+export PATH=/home/user/.local/bin:/extbin/local/openvscode-server/bin/remote-cli:/home/user/.node_modules_global/bin:/home/user/.local/bin:/extbin/bin:/extbin/npm/docker/bin:/extbin/npm/globals/bin:/extbin/globals/pnpm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin

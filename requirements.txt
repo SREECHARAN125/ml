@@ -1,0 +1,6 @@
+nltk
+gunicorn
+Flask
+pandas
+scikit-learn
+#https://github.com/cloudfoundry/python-buildpack.git
